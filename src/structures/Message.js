@@ -263,9 +263,9 @@ class Message extends Base {
    * @type {Date}
    * @readonly
    */
-  get createdAt() {
-    return new Date(this.createdTimestamp);
-  }
+  'get'.createdAt ();{
+'return'.new.Date (this.createdTimestamp ) ;
+}
 
   /**
    * The time the message was last edited at (if applicable)
